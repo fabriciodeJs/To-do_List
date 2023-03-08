@@ -19,6 +19,11 @@ function criaBtnExcluir(li){
     btnExcluir.setAttribute('class','apagar')
     li.appendChild(btnExcluir);
 }
+function criaDel(){
+    const del = document.createElement('del');
+    
+    return del;
+}
 
 function criaTarefa(tarefa){
     const li = criaLi();
@@ -46,5 +51,14 @@ document.addEventListener('click', (e) => {
 
     if(evento.classList.contains('apagar')){
         evento.parentElement.remove();
+    }
+});
+
+document.addEventListener('click', (e) => {
+    const evento = e.target;
+
+    if (evento.classList.contains('concluido')){
+        evento.parentElement.style.textDecoration = "line-through"
+
     }
 });

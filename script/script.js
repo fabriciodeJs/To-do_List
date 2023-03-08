@@ -54,6 +54,5 @@ document.addEventListener('click', (e) => {
 
     if (evento.classList.contains('concluido')){
         evento.parentElement.style.textDecoration = "line-through"
-
     }
 });

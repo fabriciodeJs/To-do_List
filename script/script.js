@@ -19,11 +19,6 @@ function criaBtnExcluir(li){
     btnExcluir.setAttribute('class','apagar')
     li.appendChild(btnExcluir);
 }
-function criaDel(){
-    const del = document.createElement('del');
-    
-    return del;
-}
 
 function criaTarefa(tarefa){
     const li = criaLi();

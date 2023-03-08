@@ -9,14 +9,14 @@ body {
     text-align: center;
 }
 header > h1 {
-    font-size: 3em;
+    font-size: 10vh;
     color: white;
     margin: 8vh;
     text-shadow: 0px 0px 6px black;
 }
 main{
     max-width: 600px;
-    min-width: 400px;
+    min-width: 300px;
     height: 30vh;
     padding-top: 10px;
     border-radius: 15px;

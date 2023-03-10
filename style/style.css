@@ -27,6 +27,7 @@ main{
 main > h2 {
     font-size: 2em;
     padding: 20px 0px;
+    box-sizing: border-box;
 }
 section > input {
     padding: 5px 35px;
